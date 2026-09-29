@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+.externalNativeBuild/
+.cxx/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Secrets and local configuration
+*.jks
+*.keystore
+secrets.properties
+google-services.json
